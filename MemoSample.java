@@ -1,24 +1,24 @@
 import java.util.*;
 
 public class MemoSample{
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		Memo contents = new Memo();
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    Memo contents = new Memo();
 
-		while (true){
-			System.out.println("”Ô†1. ƒƒ‚‚Ì“o˜^");
-			System.out.println("”Ô†2. ƒƒ‚‚Ì•\¦");
-			System.out.println("”Ô†9. ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ÌI—¹");
-			System.out.print("”Ô†‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢(1,2,9)F");
-			int num = scanner.nextInt();
+    while (true){
+      System.out.println("ç•ªå·1. ãƒ¡ãƒ¢ã®ç™»éŒ²");
+      System.out.println("ç•ªå·2. ãƒ¡ãƒ¢ã®è¡¨ç¤º");
+      System.out.println("ç•ªå·9. ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã®çµ‚äº†");
+      System.out.print("ç•ªå·ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„(1,2,9)ï¼š");
+      int num = scanner.nextInt();
 
-			if(num == 1){
-				contents.setMemo();
-			} else if(num == 2){
-				contents.display();
-			} else if(num == 9){
-				break;
-			}
+      if(num == 1){
+      contents.setMemo();
+      } else if(num == 2){
+      contents.display();
+      } else if(num == 9){
+      break;
+      }
     }
-	}
+  }
 }
